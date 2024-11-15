@@ -1,0 +1,33 @@
+/* Card.css */
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.card-image {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.card-description {
+  font-size: 15px;
+  color: black;
+}

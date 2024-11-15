@@ -1,4 +1,5 @@
-import Card from "./Card";
+import CardList from "./CardList";
+
 function App() {
   const cards = [
     {
@@ -19,7 +20,7 @@ function App() {
   ];
   return (
     <div>
-      <Card cards={cards} />
+      <CardList cards={cards} />
     </div>
   );
 }
